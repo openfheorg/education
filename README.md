@@ -16,7 +16,7 @@ The GitHub infrastructure for this content is currently being built.
 
 ## Contact information
 
-Please contact Prof Bill Buchanan OBE for opportunities in getting involved with this GitHub respository.
+Please contact Prof Bill Buchanan for opportunities in getting involved with this GitHub respository.
 
 The demos of OpenFHE is [here](https://asecuritysite.com/openfhe/).
 
