@@ -8,4 +8,4 @@ This is the OpenFHE Education repository, and it aims to:
 * Support dissemination events related to FHE.
 
 # Contact information
-Please contact Prof Bill Buchanan OBE for opportunities in getting involved with this GitHub respository.
+Please contact Prof Bill Buchanan for opportunities in getting involved with this GitHub respository.
