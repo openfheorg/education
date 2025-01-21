@@ -1,14 +1,12 @@
-                                                                                           # Homomorphic Encryption
+# Homomorphic Encryption
 This outlines a range of homomorphic encryption methods.  The demos of OpenFHE is [here](https://asecuritysite.com/openfhe/).
 
-## SEAL and OpenFHE
+## OpenFHE
 The site contains:
 
 * open_cpp. This outlines C++ code for the OpenFHE library, and uses CKKS, BGV, BFV and MD. The examples are [here](https://github.com/billbuchanan/homomorphic_encryption/tree/main/openfhe_cpp).
 * open_main. This outlines the main SEAL code for the OpenFHE SEAL library. The examples are [here](https://github.com/billbuchanan/homomorphic_encryption/tree/main/openfhe_main).
 * seal_cpp. This outlines C++ code for the Microsoft SEAL library, and uses CKKS, BGV and BFV. The examples are [here](https://github.com/billbuchanan/homomorphic_encryption/tree/main/seal_cpp).
-* seal_dotnet. This outlines .NET code for the Microsoft SEAL library, and uses CKKS, BGV and BFV. The examples are [here](https://github.com/billbuchanan/homomorphic_encryption/tree/main/seal_dotnet).
-* seal_main. This outlines the main SEAL code for the Microsoft SEAL library. The code is [here](https://github.com/billbuchanan/homomorphic_encryption/tree/main/seal_main). For this, I used Strawberry for the g++ compiler and libraries.
 
 
 ## Theory
