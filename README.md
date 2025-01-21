@@ -19,7 +19,7 @@ Overall, we have seen four generations of homomorphic encryption:
 * 3rd generation: Lattice-based methods as defined by Brakerski and Vaikuntanathan (BFV) [2,3].
 * 4th generation: CKKS (Cheon, Kim, Kim, Song) and which uses floating-point numbers [5].
 
-A presentation on related content is [here](https://youtu.be/eBF-Vnb7KiY?si=4cMDPraffB07Piey).
+A presentation on related content is [here](https://www.youtube.com/watch?v=1aeasUAoUAA).
 
 ## Reference
 [1] Van Dijk, M., Gentry, C., Halevi, S., & Vaikuntanathan, V. (2010). Fully homomorphic encryption over the integers. In Advances in Cryptology–EUROCRYPT 2010: 29th Annual International Conference on the Theory and Applications of Cryptographic Techniques, French Riviera, May 30–June 3, 2010. Proceedings 29 (pp. 24–43). Springer Berlin Heidelberg.
