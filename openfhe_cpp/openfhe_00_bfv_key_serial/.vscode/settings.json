@@ -1,0 +1,13 @@
+{
+    "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+    // Include installed OpenFHE for library references
+"C_Cpp.default.includePath": [
+    "../../openfhe_main/src/pke/include", 
+    "../../openfhe_main/src/core/include",
+    "../../openfhe_main/build/src/core",
+    "../../openfhe_main/src/binfhe/include",
+    "../../openfhe_main/third-party/cereal/include"
+ 
+
+],
+} 

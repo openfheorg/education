@@ -1,0 +1,13 @@
+*.obj
+*.o
+lib.a
+lib/lib.a
+lib/maclib.a
+lib/libbenchmark.a
+lib/libOPENFHEbinfhe_static.a
+lib/libOPENFHEcore_static.a
+lib/libOPENFHEpke_static.a
+libbenchmark.a
+libOPENFHEbinfhe_static.a
+libOPENFHEcore_static.a
+libOPENFHEpke_static.a

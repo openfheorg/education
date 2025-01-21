@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "../../openfhe_main/src/pke/include",
+                "../../openfhe_main/src/core/include",
+                "../../openfhe_main/build/src/core",
+                "../../openfhe_main/third-party/cereal",
+                "../..//openfhe_main/third-party/cereal/include",
+                "../../openfhe_main/src/binfhe/include",
+                "../../openfhe_main/src/core/include/utils/prng"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                "-I../../SEAL_main/native/src",
+                "-I../../SEAL_main/build/native/src",
+                "-I../../SEAL_main/build/thirdparty/msgsl-src/include"
+            ]
+        }
+    ],
+    "version": 4
+}

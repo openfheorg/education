@@ -1,0 +1,1 @@
+g++ -std=c++17 *.cpp ../../lib/maclib.a -o openfhe_01 -I../../openfhe_main/src/core/include/utils/prng -I../../openfhe_main/src/pke/include -I../../openfhe_main/src/binfhe/include -I../../openfhe_main/src/core/include -I../../openfhe_main/src/core -I../../openfhe_main/build/src/core -I../../openfhe_main/src/binfhe -I../../openfhe_main/third-party/cereal/include

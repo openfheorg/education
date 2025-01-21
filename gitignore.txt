@@ -1,0 +1,4 @@
+*.obj
+*.o
+lib.a
+lib/lib.a
