@@ -1,6 +1,5 @@
-<<<<<<< HEAD
                                                                                            # Homomorphic Encryption
-This outlines a range of homomorphic encryption methods.  The demos of OpenFHE is [here](https://asecuritysite.com/openfhe/) and for SEAL is [here](https://asecuritysite.com/seal/).
+This outlines a range of homomorphic encryption methods.  The demos of OpenFHE is [here](https://asecuritysite.com/openfhe/).
 
 ## SEAL and OpenFHE
 The site contains:
@@ -36,22 +35,3 @@ A presentation on related content is [here](https://youtu.be/eBF-Vnb7KiY?si=4cMD
 [4] Brakerski, Z., Gentry, C., & Vaikuntanathan, V. (2014). (Leveled) fully homomorphic encryption without bootstrapping. ACM Transactions on Computation Theory (TOCT), 6(3), 1–36.
 
 [5] Cheon, J. H., Kim, A., Kim, M., & Song, Y. (2017). Homomorphic encryption for arithmetic of approximate numbers. In Advances in Cryptology–ASIACRYPT 2017: 23rd International Conference on the Theory and Applications of Cryptology and Information Security, Hong Kong, China, December 3–7, 2017, Proceedings, Part I 23 (pp. 409–437). Springer International Publishing. 
-=======
-# OpenFHE Education
-This is the OpenFHE Education repository, and it aims to:
-
-* Enhance the adoption of Fully Homomorphic Encryption (FHE) within academia, the public sector and industry.
-* Create an educational base for FHE across a range of stakeholders.
-* Provide useful tutorials related to key topics and principles in FHE.
-* Develop education use cases using a range of programming languages, including C++ and Python.
-* Create an infrastructure for Jupyter notebooks for the integration of FHE code.
-* Design course syllabus' related to the study of HE and FHE.
-* Provide use cases for educational material in FHE.
-* Support dissemination events related to FHE.
-* Host running code for educational purposes, including for accelerated code.
-
-The GitHub infrastructure for this content is currently being built, but you can find examples of code [here](https://asecuritysite.com/openfhe).
-
-# Contact information
-Please contact Prof Bill Buchanan OBE for opportunities in getting involved with this GitHub respository.
->>>>>>> 5ae3f1633a258eaeacb11c2127c9d045a3481e68
