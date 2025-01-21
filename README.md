@@ -1,7 +1,7 @@
 # OpenFHE Education
 This is the OpenFHE Education repository, and it aims to:
 
-* Enhance the adoption of Fully Homomorphic Encryption (FHE) within academia.
+* Enhance the adoption of Fully Homomorphic Encryption (FHE) within academia, the public sector and industry.
 * Create an educational base for FHE across a range of stakeholders.
 * Provide useful tutorials related to key topics and principles in FHE.
 * Develop education use cases using a range of programming languages, including for C++ and Python.
