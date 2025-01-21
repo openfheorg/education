@@ -7,5 +7,7 @@ This is the OpenFHE Education repository, and it aims to:
 * Provide use cases for educational material in FHE.
 * Support dissemination events related to FHE.
 
+The GitHub infrastructure for this content is currently being built, but you can find examples of code [here](https://asecuritysite.com/openfhe).
+
 # Contact information
 Please contact Prof Bill Buchanan for opportunities in getting involved with this GitHub respository.
