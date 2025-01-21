@@ -12,7 +12,7 @@ This is the OpenFHE Education repository, and it aims to:
 * Support dissemination events related to FHE.
 * Host running code for educational purposes, including for accelerated code.
 
-The GitHub infrastructure for this content is currently being built.
+The GitHub infrastructure for this content is currently being built, and much of it is still in draft form.
 
 ## Contact information
 
@@ -23,7 +23,7 @@ The demos of OpenFHE is [here](https://asecuritysite.com/openfhe/).
 ## OpenFHE
 The site contains:
 
-* open_cpp. This outlines C++ code for the OpenFHE library, and uses CKKS, BGV, BFV and MD. The examples are [here](https://github.com/openfheorg/education/tree/main/openfhe_cpp).
+* open_cpp. This outlines C++ code for the OpenFHE library and uses CKKS, BGV, BFV and MD. The examples are [here](https://github.com/openfheorg/education/tree/main/openfhe_cpp).
 * open_main. This outlines the main SEAL code for the OpenFHE SEAL library. The examples are [here](https://github.com/openfheorg/education/tree/main/openfhe_main).
 
 ## Theory
