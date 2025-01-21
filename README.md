@@ -4,8 +4,8 @@ This outlines a range of homomorphic encryption methods.  The demos of OpenFHE i
 ## OpenFHE
 The site contains:
 
-* open_cpp. This outlines C++ code for the OpenFHE library, and uses CKKS, BGV, BFV and MD. The examples are [here](https://github.com/billbuchanan/homomorphic_encryption/tree/main/openfhe_cpp).
-* open_main. This outlines the main SEAL code for the OpenFHE SEAL library. The examples are [here](https://github.com/billbuchanan/homomorphic_encryption/tree/main/openfhe_main).
+* open_cpp. This outlines C++ code for the OpenFHE library, and uses CKKS, BGV, BFV and MD. The examples are [here](https://github.com/openfheorg/education/tree/main/openfhe_cpp).
+* open_main. This outlines the main SEAL code for the OpenFHE SEAL library. The examples are [here](https://github.com/openfheorg/education/tree/main/openfhe_main).
 
 ## Theory
 With homomorphic encryption, we can operate on encrypted data. Overall, we could have three values (x, y and z), and then encrypt with a public key (pk). We can then perform a homomorphic addition. The result can then be decrypted using the associated private key:
