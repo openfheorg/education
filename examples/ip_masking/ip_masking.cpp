@@ -24,7 +24,6 @@ unsigned long hex2dec(string hex)
     return result;
 }
 
-
 // https://stackoverflow.com/questions/5328070/how-to-convert-string-to-ip-address-and-vice-versa
 uint32_t convert( const std::string& ipv4Str )
 {
@@ -57,9 +56,7 @@ uint64_t mod=35184372744193;
  
     string ip1="2.3.4.5";
     string network_address="2.3.4.7";
-    uint32_t subnet_mask=0xffffff00;
-    uint32_t limit=0xffffffff;
- 
+    uint32_t subnet_mask=0xffffff00; 
  
     if (argc>1) {
     	ip1= (argv[1]);
@@ -75,10 +72,10 @@ uint64_t mod=35184372744193;
 	}
 
 
- 
- 
-    uint32_t ipval = convert(ip1) &limit & subnet_mask;
-    uint32_t network = (convert(network_address) & limit) & subnet_mask;
+ clock_t start = clock();
+
+    uint32_t ipval = convert(ip1)  & subnet_mask;
+    uint32_t network = (convert(network_address) ) & subnet_mask;
  
     CCParams<CryptoContextBFVRNS> parameters;
     parameters.SetPlaintextModulus(mod);
@@ -94,7 +91,12 @@ uint64_t mod=35184372744193;
  
     // Generate key pair
     keyPair = cryptoContext->KeyGen();
- 
+
+clock_t end = clock();
+double time = (double) (end-start) / CLOCKS_PER_SEC * 1000.0;
+std::cout << "\nTime" << time << " ms" << std::endl;
+
+start = clock();
 
     std::vector<int64_t>xval = {1};
 	xval[0]=ipval;
@@ -107,13 +109,23 @@ uint64_t mod=35184372744193;
     // Encrypt values
     auto ciphertext1 = cryptoContext->Encrypt(keyPair.publicKey, xplaintext);
     auto ciphertext2 = cryptoContext->Encrypt(keyPair.publicKey, yplaintext);
- 
+
+end = clock();
+time = (double) (end-start) / CLOCKS_PER_SEC * 1000.0;
+std::cout << "\nTime to encrypt" << time << " ms" << std::endl;
+
+start = clock(); 
     // Add ciphertext
     auto ciphertextMult     = cryptoContext->EvalSub(ciphertext1, ciphertext2);
- 
+
+
     // Decrypt result 
     Plaintext plaintextAddRes;
     cryptoContext->Decrypt(keyPair.secretKey, ciphertextMult, &plaintextAddRes);
+
+end = clock();
+time = (double) (end-start) / CLOCKS_PER_SEC * 1000.0;
+std::cout << "\nTime to encrypt" << time << " ms" << std::endl;
  
     std::cout << "Modulus: : " << mod<< std::endl;
  
