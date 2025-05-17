@@ -6,11 +6,10 @@ SEED = 42
 
 # Fetch dataset 
  
-credit_approval = fetch_ucirepo(id=27)
+credit_approval = fetch_ucirepo(name='Credit Approval')
 
-# Select only 4 numerical features (for simplicity)
 vars = credit_approval.variables
-cont_features = vars[vars['type'] == 'Continuous']['name'].values[0:10]
+cont_features = vars[vars['type'] == 'Continuous']['name'].values[0:8]
 # Filter the X data (Dropping NA's)
 X = credit_approval.data.features[cont_features].dropna()
 # Drop y lines that were na in X
