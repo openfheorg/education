@@ -3,32 +3,32 @@
 The dream of near perfect data security is on the way, and at its core is the use of lattice based cryptography. This will bring new methods of public key encryption, and which are quantum robust. Examples of this are Kyber (for Key Exchange and Public Key Encryption) and Dilithium (for digital signatures). But, the rise of lattice-based cryptography will bring great opportunities for homomorphic encryption (HE). With this, we can process with encrypted values, such as:
 
 $$
-Enc(a) * Enc(b) = Enc(a*b)
+Enc(a) \circ Enc(b) = Enc(a \circ b)
 $$
 
-The three main methods that are proposed are BFV [1,2], BGV [3] and CKKS [4]. With BFV and BGV, we can perform homomorphic encryption with integer values. Within OpenFHE, we have a cryptocontext, and which defines the size of the ring that we use. Overall, we have a plaintext modulus, and which will define the number of bits that are processed within the plaintext. If we process the ciphertext text, and use more than the bits set, we will overflow the result.
+and where $$\circ$$ can be any arithmetic operator. The three main methods that are proposed are BFV, BGV and CKKS. With BFV and BGV, we can perform homomorphic encryption with integer values. Within OpenFHE, we have a cryptocontext, and which defines the size of the ring that we use. Overall, we have a plaintext modulus, and which will define the number of bits that are processed within the plaintext. If we process the ciphertext text, and use more than the bits set, we will overflow the result.
 
 For this, we need to look at two core parameters:
 
 * Plaintext modulus (p): This defines a prime number for the coefficients.
-* Polynomial modulus (m): This defines the degree of the irreducible polynomial $$x^m+1$$. For example, if m is 5, we have an irreducible polynomial of x⁵+1.
+* Polynomial modulus (m): This defines the degree of the irreducible polynomial $$x^m+1$$. For example, if $$m$$ is 5, we have an irreducible polynomial of $$x^5+1$$.
 
 If we had an $$m$$ of 5, the polynomial will have a form of:
 
 $$
-x⁴+x³+x²+x+1
+x^4+x^3+x^2+x+1
 $$
 
-and were $$x^4$$ will be the highest degree of the polynomial. For $$p$$, we will define the maximum value for the coefficients of the polynomial factors. For example, if we have p=11, then:
+and were x⁴ will be the highest degree of the polynomial. For p, we will define the maximum value for the coefficients of the polynomial factors. For example, if we have p=11, then:
 
 $$
-61x³+12x (mod 11)
+61x^3+12x \pmod {11}
 $$
 
 which equals:
 
 $$
-6x³+x
+6x^3+x
 $$
 
 ## Picking the modulus
@@ -226,4 +226,8 @@ If we try for 32-bit values, we get:
 ...
 ```
 
+<<<<<<< HEAD
 And, that is how you find out the plaintext modulus.
+=======
+And, that how you find out the plaintext modulus.
+>>>>>>> 9509443e15679aa0df6b4d047917d701a6f8baaf
