@@ -19,7 +19,7 @@ $$
 x⁴+x³+x²+x+1
 $$
 
-and were x⁴ will be the highest degree of the polynomial. For p, we will define the maximum value for the coefficients of the polynomial factors. For example, if we have p=11, then:
+and were $$x^4$$ will be the highest degree of the polynomial. For $$p$$, we will define the maximum value for the coefficients of the polynomial factors. For example, if we have p=11, then:
 
 $$
 61x³+12x (mod 11)
@@ -33,7 +33,7 @@ $$
 
 ## Picking the modulus
 
-In the following program, I use OpenFHE to homomorphically encrypt two values with a public key, and then homorphically add them, and then decrypt with the private key to produce the result [here]:
+In the following program, we use OpenFHE to homomorphically encrypt two values with a public key, and then homorphically add them, and then decrypt with the private key to produce the result [here]:
 
 ```C++
 #include <openfhe.h>
