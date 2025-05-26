@@ -226,8 +226,4 @@ If we try for 32-bit values, we get:
 ...
 ```
 
-<<<<<<< HEAD
 And, that is how you find out the plaintext modulus.
-=======
-And, that how you find out the plaintext modulus.
->>>>>>> 9509443e15679aa0df6b4d047917d701a6f8baaf
