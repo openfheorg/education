@@ -1,0 +1,1 @@
+g++ *.cpp lib/lib.a -o openfhe_01  -Iopenfhe_main/src/pke/include -Iopenfhe_main/src/binfhe/include -Iopenfhe_main/src/core/include -Iopenfhe_main/src/core -Iopenfhe_main/build/src/core -Iopenfhe_main/src/binfhe -Iopenfhe_main/third-party/cereal/include
