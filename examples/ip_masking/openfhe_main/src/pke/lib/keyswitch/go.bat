@@ -1,1 +1,0 @@
-g++ -std=c++17 -c *.cpp -I../include -I../../../../../openfhe_main/src/pke/include -I../../../../../openfhe_main/src/binfhe/include -I../../../../../openfhe_main/src/core/include -I../../../../../openfhe_main/src/core -I../../../../../openfhe_main/build/src/core -I../../../../../openfhe_main/src/binfhe -I../../../../../openfhe_main/third-party/cereal/include
