@@ -1,7 +1,7 @@
 
 
 # Masking IP addresses
-The paper is [here](https://www.overleaf.com/2391376879yhtknhgchcmr#8a6d0f) and the PDF  version of the paper is [here](https://github.com/LastingAsset/Innovation/blob/main/ip_masking/Privacy_aware_White_and_Black_List_Searching_for_Fraud_Analysis.pdf).
+
 
 ## Outline
 In many areas of cybersecurity, we require access to Personally Identifiable Information (PII), such as names, postal addresses and email addresses. Unfortunately, this can lead to data breaches, especially in relation to data compliance regulations such as GDPR. An Internet Protocol (IP) address is an identifier that is assigned to a networked device to enable it to communicate over networks that use IP. Thus, in applications which are privacy-aware, we may aim to hide the IP address while aiming to determine if the address comes from a blacklist. One solution to this is to use homomorphic encryption to match an encrypted version of an IP address to a blacklisted network list. This matching allows us to encrypt the IP address and match it to an encrypted version of a blacklist. In this paper, we use the OpenFHE library \cite{OpenFHE} to encrypt network addresses with the BFV homomorphic encryption scheme. In order to assess the performance overhead of BFV, we implement a matching method using the OpenFHE library and compare it against partial homomorphic schemes, including Paillier, Damgard-Jurik, Okamoto-Uchiyama, Naccache-Stern and Benaloh. The main findings are that the BFV method compares favourably against the partial homomorphic 
